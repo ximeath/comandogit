@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image:url("https://i.pinimg.com/736x/8b/fd/26/8bfd264098445fbcca8157fc25374abc--marble-wallpaper-phone-wallpaper-pattern.jpg") ;
+
+}
+
+nav{
+    background-color: rgb(253, 253, 245);
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista{
+display: inline-block;
+}
+
+.lista-r {
+float: right;
+}
+.lista a:hover{
+    background-color: rgb(99, 96, 99);
+}
+main{
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    border: 20px;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;   
+}
+
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(253, 253, 235);
+}
+
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(253, 253, 235);
+    color: black;
+}
+button[ type= "submit"]{
+    background-color: rgb(112, 112, 112);
+    color: aliceblue;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(219, 219, 193);
+}
