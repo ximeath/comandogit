@@ -1,37 +1,68 @@
-#etiquetas html
-1. body:para el contenido
+# **etiquetas html**
+
+1. body:para el contenido 
+
 2. head:información sobre el documento 
-3. div:división sobre el contenido 
-4. a:para enlaces 
-5. strong:poner el texto en negrilla 
-6. br:saltos de la línea 
-7  H1:títulos dentro del contenido 
-8.h2:títulos dentro del contenido 
-9. h3:títulos dentro del contenido 
-10. h4:títulos dentro del contenido 
-11. h5:títulos dentro del contenido 
-12. H6:títulos dentro del contenido 
-13. img:añadir imágenes dentro del contenido 
-14. ol:listas ordenadas
-15. p:párrafos 
-16. span:stilos de una parte del texto 
-17.IMG:imagen en el documento 
-18. Main:definir el contenido principal del documento 
-19. li:elementos dentro de la lista 
- 20. ul: listas desordenadas 
- 21.link:enlazar recursos externos a html 
- 22. title:definir el título de la página web
- 23. html:raíz de un documento 
- 24. style:introducir código css en línea 
- 25. script:insertar o hacer referencia a un script ejecutable dentro de un documento HTML
- 26. meta:definir metadatos que no se pueden con html 
- 27. Strong:definir una palabra o conjunto importante 
- 28. Footer:definir el pie de página.
- 29. header:definir la cabecera la página web
- 30. nav:definir el contenido que será la sección de navegación de la web
+
+3. div:división sobre el contenido *block*
+
+4. a:para enlaces *inline*
+
+5. strong:poner el texto en negrilla *inline*
+
+6. br:saltos de la línea  *inline*
+
+7  H1:títulos dentro del contenido *block*
+
+8.h2:títulos dentro del contenido  *block
+
+9. h3:títulos dentro del contenido  *block*
+
+10. h4:títulos dentro del contenido  *block*
+
+11. h5:títulos dentro del contenido  *block*
+
+12. H6:títulos dentro del contenido  *block*
+
+13. img:añadir imágenes dentro del contenido *inline*
+
+14. ol:listas ordenadas  *block*
+
+15. p:párrafos *block*
+
+16. span:stilos de una parte del texto *inline*
+
+19. Main:definir el contenido principal del documento 
+
+20. li:elementos dentro de la lista *block*
+
+ 21. ul: listas desordenadas  *block*
+ 
+ 22.link:enlazar recursos externos a html 
+ 
+ 23. title:definir el título de la página web
+ 
+ 24. html:raíz de un documento 
+ 
+ 25. style:introducir código css en línea
+ 
+ 26. script:insertar o hacer referencia a un script ejecutable dentro de un documento HTML
+ 
+ 27. meta:definir metadatos que no se pueden con html
+ 
+ 28. Strong:definir una palabra o conjunto importante 
+ 
+ 29. Footer:definir el pie de página.
+ 
+ 30. header:definir la cabecera la página web
  
  
- #estilos css
+ 
+ 
+ 31. nav:definir el contenido que será la sección de navegación de la web
+ 
+ 
+ # **estilos css**
 
  1.font-size: define el tamaño de los caracteres. 
 
@@ -98,7 +129,78 @@
 
  32.Left Padding:Relleno izquierdo
  
+ # **Display block**
  
+ Un elemento de bloque es un elemento que ocupa el ancho máximo disponible. Tal y como dice la documentación de la MDN: De manera predeterminada, el contenido de un elemento de nivel de bloque es el 100% del ancho de su elemento padre y su altura viene determinada por su contenido.
+ 
+ # **inline**
+ 
+ Se conocen como funciones inline a las funciones que, al compilar, no son llamadas en el código objeto, sino insertadas en la sección del código donde se las llame.Cuando escribimos el nombre de una función en un programa, por así decirlo "llamamos" a dicha función. Por lo tanto, nuestro programa ejecuta la función y sigue la ejecución del código. Esto sucede cuando la función se declara de una manera normal, pero cuando creamos la función y le especificamos que es de tipo inline, lo que sucede dentro de nuestro código es que, al ser compilado, la función se inserta como una copia en el mismo código fuente, en vez de llamar a la función.
+ 
+ # **inline-block**
+ 
+  fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales
+  
+  
+  # **eventos en javascript**
+  
+ 1. onabort:Este evento se produce cuando un usuario detiene la carga de una imagen
+ 
+ 2.onblur:Se desata un evento onblur cuando un elemento pierde el foco de la aplicación
+ 
+ 3.onchange:Se desata este evento cuando cambia el estado de un elemento de formulario
+ 
+ 4.onclick:Se produce cuando se da una pulsación o clic al botón del ratón sobre un elemento de la página
+ 
+ 5.ondragdrop:Se produce cuando un usuario suelta algo que había arrastrado sobre la página web
+ 
+ 6.onerror:Se produce cuando no se puede cargar un documento o una imagen y esta queda rota.
+ 
+ 7.onfocus: Se produce cuando un elemento de la página o la ventana ganan el foco de la aplicación.
+ 
+ 8.onkeydown:Este evento se produce en el instante que un usuario presiona una tecla
+ 
+ 9.onkeypress: cuando el usuario deja pulsada una tecla un tiempo determinado.
+ 
+ 10.onkeyup:Se produce cuando el usuario deja de apretar una tecla. 
+ 
+ 11.onload:Este evento se desata cuando la página, o en Javascript 1.1 las imágenes, ha terminado de cargarse
+  
+  12.onmousedown. cuando el usario pulsa sobre un elemento de la página.
+  
+  13.onmousemove:Se produce cuando el ratón se mueve por la página.
+  
+  14.onmouseout: el puntero del ratón sale del área ocupada por un elemento de la página.
+  
+  15.onmouseover: cuando el puntero del ratón entra en el área ocupada por un elemento de la página.
+  
+  16.onmousep:el momento que el usuario suelta el botón del ratón, que previamente había pulsado.
+  
+  17.onmove:se ejecuta cuando se mueve la ventana del navegador, o un frame.
+  
+  18.onresize:se produce cuando se redimensiona la ventana del navegador, o el frame, en caso de que la página los tenga
+  
+  19.onreset:está asociado a los formularios y se desata en el momento que un usuario hace clic en el botón de reset de un formulario.
+  
+  20.onselect:Se ejecuta cuando un usuario realiza una selección de un elemento de un formulario.
+  
+  21.onsubmit:Ocurre cuando el visitante apreta sobre el botón de enviar el formulario. Se ejecuta antes del envío propiamente dicho.
+  
+  22.onunload:Al abandonar una página, ya sea porque se pulse sobre un enlace que nos lleve a otra página o porque se cierre la ventana del navegador, se ejecuta el evento onunload.
+  
+  # **selectores simples**
+  
+  aquel que está formado sólo por una única cadena textual, sin ningún combinador.
+  
+  
+  # **selector compuesto**
+  
+  HTML y CSS
+  
+  
+
+  
+  
  
  
  
