@@ -15,13 +15,13 @@ function LeerDatos() {
 }
 
 
-function ValidarData(ombre,correo,mensaje) {
+function ValidarData(nombre,correo,mensaje) {
     if(nombre.length==0 || correo.length==0 || mensaje.length==0){
 
         swal.fire({
             title: 'error!',
             text: 'do you want to continue',
-            icon: 'error'
+            icon: 'error',
             confirmButtonText: 'cool',
             iconColor: 'purple'
         }) 
